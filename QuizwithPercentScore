@@ -1,0 +1,71 @@
+score = 0
+
+puts "How many sides does an octagon have?"
+
+puts "1. Five"
+
+puts "2. Six"
+
+puts "3. Seven"
+
+puts "4. Eight"
+
+print "Enter your answer: "
+
+
+sides = gets.chomp.to_i
+
+
+if sides == 4 
+ 
+   puts "You are correct. Congratulations."
+ 
+   score += 1
+ 
+   #Same as score = score + 1
+
+else
+  
+  puts "Wrong!."
+
+end
+
+
+puts "How do you calculate the area of a rectangle?"
+
+puts "1. width * height"
+
+puts "2. width / height"
+
+puts "3. width + height"
+
+print "Enter your answer: "
+
+
+area = gets.chomp.to_i
+
+
+if area == 1
+  
+  puts "Correct!"
+  
+  score += 1
+
+else
+  
+  puts "X! WRONG!"
+
+end
+
+puts "Your percentage: #{(score / 2 * 100)}%"
+----------------------------------------------------------
+a = 1
+
+
+while a <= 50
+  
+  puts a
+  
+  a += 1
+
+end
