@@ -1,0 +1,34 @@
+puts "Welcome! You are about to start an adventure."
+
+puts "But first things first, what is your name?"
+
+
+name = gets.chomp
+
+
+puts "Hello " + name + "!"
+
+
+puts name.capitalize + " was walking through the woods one day. All of a sudden, a bear jumps out! What do you do?"
+
+
+puts "1. You kick the bear in the shin."
+
+puts "2. You run away."
+
+decision1 = gets.chomp
+
+
+if decision1 == "1"
+    
+	puts "The bear got angry!"
+
+elsif decision1 == "2"
+ 
+   puts name + " is a scaredy cat."
+
+else
+  
+  puts "You have to put a number or else you're messing with my code."
+
+end
