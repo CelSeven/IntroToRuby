@@ -1,0 +1,27 @@
+puts "How do you calculate the area of a rectangle?"
+
+puts "1. width * height"
+
+puts "2. width / height"
+
+puts "3. width + height"
+
+print "Enter your answer: "
+
+
+area = gets.chomp.to_i
+
+
+if area == 1
+  
+  puts "Correct!"
+  
+  score += 1
+
+else
+  
+  puts "X! WRONG!"
+
+end
+
+puts "Your percentage: #{(score / 2 * 100)}%"
